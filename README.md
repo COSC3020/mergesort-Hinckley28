@@ -16,12 +16,14 @@ Analyse the time complexity of your implementation and give a $\Theta$ bound for
 its worst-case runtime. Add your answer, including your reasoning, to this
 markdown file.
 
-Answer: The wost case time complexity for this mergesort algorithm would be $\Theta$(nlog n).
+Answer: The wost case time complexity for this mergesort algorithm would be $\Theta$(n^2 log n).
 1. mergesort iterates through the array where the width grows *2 each iteration = logn
-2. calculating the mid and right indexes = n
-3. swapping elements in the mergeInPlace function = n / 2, n / 2 = n^2/4
-4. iterates through the array in the mergeInPlace function = n
-5. width is calculated to check the while loop condition = constant time
-6. Overall time complexity = $\Theta$(n^3 log n)
+2. calculating the mid and right indexes = constant time
+3. calling the mergeInPlace function:
+4. moving values into the temporary array = n 
+5. copying values in the temporary array back into original array = n
+6. width is calculated to check the while loop condition = constant time
+7. n * n * logn = n^2 log n
+8. Overall time complexity = $\Theta$(n^2 log n)
 
 
