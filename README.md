@@ -27,3 +27,8 @@ Answer: The wost case time complexity for this mergesort algorithm would be $\Th
 8. Overall time complexity = $\Theta$(n^2 log n)
 
 
+Sources: 
+1. Gemini AI
+2. WyoCourses Sorting Powerpoint
+
+
