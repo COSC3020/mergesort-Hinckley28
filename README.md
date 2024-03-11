@@ -28,7 +28,7 @@ Answer: The wost case time complexity for this mergesort algorithm would be $\Th
 
 
 Sources: 
-1. Gemini AI
+1. Gemini AI : Asked if it could convert the code that stored values in a temporary array to make the code merge-in-place without a temporary array. 
 2. WyoCourses Sorting Powerpoint
 
 
